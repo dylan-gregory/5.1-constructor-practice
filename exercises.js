@@ -53,8 +53,9 @@ function expect(target) {
   }
 
   function Human(config){
-    
+
     var config = config || {};
+
     this.cool = config.cool;
 
     if (this.cool == undefined) {
